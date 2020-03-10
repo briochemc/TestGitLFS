@@ -22,4 +22,8 @@ git add -f fig/test.svg
 
 This figure is now available as svg through git-lfs (so not in the repo per say) and hopefully you can see it below
 
-![](fig/test.svg) 
+![with git-lfs](fig/test.svg) 
+
+This is not very good... For comparison, here is the same figure but tracked without git-lfs:
+
+![without git-lfs](fig/test_nolfs.svg)
