@@ -1,4 +1,3 @@
-module TestGitLFS
 
 using Plots
 
@@ -13,10 +12,11 @@ function savemysimpleplot(;nx=1000, ny=1000, nx2=100, saveit=false)
     x2 = range(-3, 3, length=nx2)
     scatter!(plt, x2, sin.(x2), zcolor=maximum(abs.(z)) * cos.(x2))
 
-    saveit && savefig("fig/test.svg")
+    saveit && savefig("fig/test2.svg")
 
     return plt
 end
 
+savemysimpleplot(saveit=true)
 
-end # module
+
