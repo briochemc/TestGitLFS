@@ -1,0 +1,4 @@
+name = "TestGitLFS"
+uuid = "17cdea1d-0723-4a96-ad08-d2295c4bcccb"
+authors = ["Benoit Pasquier <briochemc@gmail.com>"]
+version = "0.1.0"
